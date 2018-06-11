@@ -1,0 +1,70 @@
+html{  
+  height: 100%;
+  background-image: url("https://ih0.redbubble.net/image.530050532.8060/raf,750x1000,075,t,101010:01c5ca27c6.u1.jpg");  
+  background-size:cover;
+}
+
+#banner {
+   padding-top: 22%;
+ font-family:'titan one',cursive;
+ font-size: 35px;
+ display: flex;
+ justify-content: center;
+ color: white;
+}
+
+#heading {
+height:100%;
+font-family:'montserrat', san-serif;
+display: flex;
+justify-content: space-around;
+color: blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width*/ 
+  }
+  
+.navbar a {
+  float : left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family:'Monserrat', sans-serif;
+  }
+  
+.navbar a:hover { 
+    color:yellow;
+    background:#9370DB;
+  }
+  
+  #about-content {
+     display:flex;
+     justify-content: space-around;
+     margin-top: 22%;
+    }
+    
+img {
+  border-radius: 50%;
+  border: solid 5px #F0CD59;
+}
+
+.my-description {
+ background: white;
+ margin: 3%;
+ padding: 4%;
+ font-family: 'Dancing Script';
+}
+
+.feature-content {
+  margin-top: 15%;
+  color:#FF0000;
+}
